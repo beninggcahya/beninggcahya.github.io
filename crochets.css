@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Itim', cursive;
+    color: #A5A857;
+    line-height: 1.6;
+    background: url("strawberrybg.png") repeat;
+}
+
+.main-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-content-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+}
+
+.nav-bg {
+    position: absolute;
+    top: 0;
+
+    width: min(100%, 699px);
+    height: 77px;
+
+    background-color: #FFFBFB;
+    border-radius: 0 0 50px 50px;
+
+    z-index: 9;
+}
+
+.main-nav {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    height: 77px;
+    flex-wrap: wrap;
+    z-index: 9;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #A5A857;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+    z-index: 9;
+}
+
+.nav-item:hover {
+    color: #7A7A3D;
+    z-index: 9;
+}
+
+.hero-card-bg {
+    position: relative;
+    margin: -15% auto 0;
+
+    width: min(80%, 1342px);
+    aspect-ratio: 300 / 150; 
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.title {
+    background-image: url('textcro.png');
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.info-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.crochet {
+    width: 90%; 
+    aspect-ratio: 1317 / 1164; 
+
+    background: url("crochet.png") center / contain no-repeat;
+
+    margin-top: -15%; 
+}
+
+
+.books-section {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -7%; 
+    margin-bottom: 20%;
+    background: url("Rectangle 38.png") center / cover no-repeat;
+}
+
+
+.books-wrapper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+
+.book {
+    position: absolute;
+    width: 20%;
+    aspect-ratio: 365 / 451;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.b1 {
+    background-image: url("cro1.png");
+    top: 10%;
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+.b2 {
+    background-image: url("cro2.png");
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.b3 {
+    background-image: url("cro3.png");
+    top: 10%;
+    left: 80%;
+    transform: translateX(-50%);
+}
+
+.sorry {
+    position: absolute;
+
+    width: 70%; 
+    aspect-ratio: 1044 / 54;
+
+    background: url("sorry.png") center / contain no-repeat;
+
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}

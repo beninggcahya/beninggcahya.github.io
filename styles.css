@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Itim', cursive;
+    color: #A5A857;
+    background-color: #FFFDEC;
+    line-height: 1.6;
+}
+
+.main-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-content-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+}
+
+.nav-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+}
+
+.nav-bg {
+    position: absolute;
+    top: 0;
+
+    width: min(100%, 699px);
+    height: 77px;
+
+    background-color: #FFFBFB;
+    border-radius: 0 0 50px 50px;
+
+    z-index: 9;
+}
+
+.main-nav {
+    position: relative;
+    z-index: 9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    height: 77px;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #A5A857;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #7A7A3D;
+}
+
+.hero-card-bg {
+    position: relative;
+    margin: 40px auto 0;
+
+    width: min(92%, 1342px);
+    aspect-ratio: 1342 / 430;
+
+    background-color: #FFE27C;
+    border-radius: 50px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.curlypict {
+    width: clamp(220px, 32%, 424px);
+    aspect-ratio: 424 / 497;
+
+    background-image: url('curlypict.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    pointer-events: none;
+    z-index: 3;
+}
+
+.intro {
+    background-image: url('intro.png');
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.Polygon1{
+    background-image: url('Polygon 1.png');
+    background-size: 15%; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 73%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.hi{
+    background-image: url('Hi!.png');
+    background-size: 8%; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 73%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.benyang{
+    background-image: url('benyang.png');
+    background-size: 9%; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.maning{
+    background-image: url('maning.png');
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 9%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.nining{
+    background-image: url('nining.png');
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.noin{
+    background-image: url('noin.png');
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 10%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.benoing{
+    background-image: url('benoing.png');
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 40%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.beneng{
+    background-image: url('beneng.png');
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 25%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.ning{
+    background-image: url('ning.png');
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 58%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.ningnong{
+    background-image: url('ningnong.png');
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.ningsih{
+    background-image: url('ningsih.png');
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 88%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.nong{
+    background-image: url('nong.png');
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.nuning{
+    background-image: url('nuning.png');
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.about-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 10px 50px 0 0px;
+}
+
+.hero-about-bg {
+
+    position: relative;
+    margin: 0px 0 0 50px;
+
+    width: min(45%, 450px); 
+
+    aspect-ratio: 4 / 7; 
+
+    background-color: #CCCF75;
+    border-radius: 50px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.colors{
+    background-image: url('rec7.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.coltext{
+    background-image: url('favcol.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.colorss{
+    background-image: url('colors.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.kpop{
+    background-image: url('rec8.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 33%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.kpoptext{
+    background-image: url('top3.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.kpopimg{
+    background-image: url('kpop.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.singer{
+    background-image: url('rec9.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.singertext{
+    background-image: url('singers.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.bingung{
+    background-image: url('bingung.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.hero-shortcut-bg {
+    position: relative; 
+    
+    width: min(65%, 1400px);
+    aspect-ratio: 8/5;
+
+    background: #FFFBFB;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.buku{
+    background-image: url('buku.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.bukutext{
+    background-image: url('books.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 79%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.film{
+    background-image: url('film.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.filmtext{
+    background-image: url('Movies.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.mbentel{
+    background-image: url('mbentel.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 40%;
+    left: 82.5%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.mbenteltext{
+    background-image: url('Crochets.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    top: 79%;
+    left: 82.5%;
+    transform: translate(-50%, -50%);
+
+    width: 86%;
+    height: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.info-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    width: 90%; 
+    aspect-ratio: 1385 / 278; 
+
+    background: url("hoho.png") center / contain no-repeat;
+    transform: translateY(-50%);
+}
