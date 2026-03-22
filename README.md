@@ -2,12 +2,13 @@
 My first personal website that i made for sleepover event-hackclub
 
 About:
-This is a personal website where I share things I enjoy and create, such as:
+This is my first personal website where I share things I enjoy and create, such as:
 - Book reviews
 - Movie reviews
 - Hack Club projects
 - Crochet projects
 
+I use html and css for this site!
 I’ll be updating this website regularly as I came up with new projects and contents
 
 You can visit my website in **beninggcahya.github.io/noinspace/** or **https://noinspace.netlify.app/**
