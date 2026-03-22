@@ -10,6 +10,6 @@ This is a personal website where I share things I enjoy and create, such as:
 
 I’ll be updating this website regularly as I came up with new projects and contents
 
-You can visit my website in **beninggcahya.github.io/noinspace/**
+You can visit my website in **beninggcahya.github.io/noinspace/** or **https://noinspace.netlify.app/**
 
 Feel free to explore it! Thanks guys
